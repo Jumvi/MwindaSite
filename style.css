@@ -1,0 +1,331 @@
+
+
+
+
+body{
+    display: block;
+    font-family: 'Roboto';
+    padding: 5px;
+    overflow-X: hidden;
+
+}
+
+h1{
+    bottom: 400px;
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    
+}
+
+
+
+.imageprincipale figure img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+    /*margin-left: 30px;
+    margin-right: 100px;
+    margin-top: 200px;*/
+    
+    
+}
+
+.logo img {
+       height: 80px;
+       
+       
+}
+
+
+
+.menu img{
+    
+    
+    height: 30px;
+    
+}
+.haut{
+    display: flex;
+    justify-content: space-between;
+    
+}
+ 
+
+
+h1{
+    margin-top: 150px;
+    position: absolute;
+    margin-left: 70px;
+   
+    
+}
+
+h1 strong{
+    color: orange;
+   
+}
+
+#date h2{
+    text-align: right;
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    left: 650px;
+    
+    
+    
+}
+
+header figcaption p{
+
+    font-size: 32px;
+    margin-left: 70px;
+    color: black;
+    
+}
+
+hr{
+    width: 500px;
+    height: 10px;
+    background-color: orange;
+    margin-left: 70px;
+}
+
+ .detail a{
+    
+    color: black;  
+    font-size: 25px; 
+
+}
+
+.detail{
+    margin-left: 1500px; 
+   margin-top: -150px;
+   position: absolute;
+   padding-bottom: 5px;
+   width: 200px;
+    
+
+}
+/* corps de la page */
+/* les sections  */
+
+main img{
+    cursor: alias;
+    cursor:  url(photos/cuesor1.png) auto;
+    
+}
+
+.sect1{
+    background-color: orange;
+    
+}
+
+.sect2{
+    background-color: whitesmoke;
+}
+/* les titre des sections*/
+.pp h2{
+    color: white;
+}
+
+.pp3 h2 {
+    color: orange;
+}
+
+.pp2{
+    
+    color: black;
+}
+
+  .pp h2, .pp2 h2, .pp3 h2{  /* tous,les titres des sections*/
+    
+    font-size: 40px;
+    margin-left: 100px;
+}
+
+.img, .img2, .img3{
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    column-gap: normal;
+    justify-items: center;
+    
+    
+    
+    
+}
+
+.img figcaption, .img2 figcaption{  /* toutes les déscription des photos flexible */
+    background-color: white;
+    color: black;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px;
+    margin-top: -29px;
+    
+    
+
+}
+
+figcaption{
+    left: -20px;
+}
+
+figcaption p{
+  
+    font-size: 25px;
+
+}
+
+.fig a{
+    font-size: 25px;
+    color: black;
+}
+
+.fig{
+    text-align: justify;
+    display: flex;
+    width: 100%;
+    justify-content:space-between ;
+   
+    
+}
+
+main figure img{
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    row-gap: 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    
+
+    
+    
+}
+/* début transition de survol sur les photos du main pour leurs rédimensionnement*/
+ main img{
+    width: 200px;
+    transition: transform .1s;
+}
+
+
+
+main img:hover{
+    transform: scale(1.2);
+}
+
+/* fin transition de survol sur les photos du main pour leurs rédimensionnement*/
+
+
+/* les fleches à coté des images flexible */
+.fleche, .fleche2{
+    position: absolute;
+    margin-left: 1150px;
+    margin-top: -300px;
+    
+}
+
+.fleche img, .fleche2 img{
+    height: 70px;
+    width: 70px;
+}
+
+/* image événements précédents */
+
+
+
+.img2 figcaption{
+    background-color: wheat;
+}
+
+
+/* Nos intervenants bordures*/
+
+.img3 figure img{
+    border-radius: 10px;
+    border: 5px solid orange;
+}
+
+/* section 4*/
+
+.img4 img{
+    width: 100%;
+}
+
+.img4 figure{
+    width: 50%;
+    object-fit: cover;
+    margin-left: 200px;
+}
+
+.img4 aside{
+    position: absolute;
+    border: 5px solid pink;
+    margin-left:600px ;
+    margin-top: -300px;
+    border-radius: 15px;
+    width: 30%;
+    
+    /*height: 480px;*/
+    background-color: aliceblue;
+
+}
+
+aside button{
+    background-color: pink;
+    border-radius: 10px;
+    margin-left:130px;
+
+    width: 30%;
+}
+
+aside h3{
+    text-align: center;
+    font-size: 32px;
+}
+
+aside p{
+    text-align: center;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    
+}
+
+.img5{
+    display: flex;
+    width: 100%;
+}
+
+.img5  img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+}
+
+.img5{
+    text-align: center;
+    margin-left: 500px;
+}
+
+.pp5 h3{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer div p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+

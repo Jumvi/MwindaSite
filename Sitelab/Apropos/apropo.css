@@ -1,0 +1,204 @@
+@font-face{
+    font-family: 'me';
+    src: url('../police/Pacifico.zip') format('ttf');
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    top: 0%;
+    background-color: white;
+    width: 1300px;
+}
+
+nav{
+    display: flex;
+    column-gap: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
+
+nav li:hover a{
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(240, 240, 11);
+    margin-bottom: 5px;
+}
+
+.navigation{
+    display: flex;
+    column-gap: 40px;
+}
+
+/* main*/
+
+article strong{
+    color:rgb(240, 240, 11);
+}
+
+article span{
+    color: rgb(216, 146, 17);
+}
+
+article{
+    text-align: center;
+}
+
+article{
+   margin-top: 100px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 25px;
+   font-weight: 900;
+   line-height: 5px;
+}
+
+#apropoimg img{
+    width: 100%;
+    padding: 50px;
+    border-radius: 10px;
+    animation-name: transit;
+    animation-duration: 10s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-iteration-count: infinite;
+    animation-direction: initial;
+    
+}
+
+/*@keyframes transit{
+
+    0%{
+        background-image: url('photos/inginerinfo.png');
+        animation-play-state: paused;
+        animation-direction: alternate-reverse;
+    }
+
+    50%{
+        background-image: url('photos/development.png');
+        animation-play-state: paused;
+        
+    }
+
+    100%{
+        background-image: url('photos/WhatsApp\ Image\ 2022-09-13\ at\ 06.01\ 1\ \(1\).png');
+        animation-play-state: paused;
+    }
+
+}*/
+
+
+
+
+
+#presentation1 li img, #presentation2 li img{
+   width: 100%;
+   margin-left: 5px;
+   margin-right: 10px;
+}
+
+#presentation1 li, #presentation2 li{
+    width: 600px;
+}
+
+#presentation2, #presentation1{
+    display: flex;
+   
+    width: auto;
+    justify-content: center;
+    margin-left: -50px;
+
+}
+
+figcaption{
+    margin-left: 50px;
+}
+
+figcaption button{
+    background-color: #041838;
+    color:rgb(228, 228, 23);
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px; 
+}
+
+footer{
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+#foot1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.condition{
+    display: flex;
+    column-gap: 20px;
+
+}
+
+#foot2{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-top: -30px;
+}
+
+.rx{
+    display: flex;
+    column-gap: 20px;
+    
+}
+
+.rx img{
+    height: 30px;
+    width: 30px;
+}
+
+.rx{
+    margin-left: -60px;
+}
+
+.rx:first-child{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: bold;
+}
+
+#foot2 span{
+    color: rgb(0,0,0);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    
+    
+}
+
+.contact span{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    
+}
+
+footer{
+    margin-right: 60px;
+    font-family: 'me';
+}
+
+
+
+
+
+
+

@@ -1,0 +1,398 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+html{
+    width: 100%;
+}
+
+/* importation des polices */
+
+@font-face{
+
+    font-family: 'pacifico';
+    src: url('police/Pacifico.zip')
+    format('ttf');
+    font-weight:Normal;
+    font-style:Normal;
+    }
+
+    @font-face{
+
+        font-family: 'Roboto';
+        src: url('police/Roboto_Mono.zip')
+        format('ttf');
+        font-weight:Normal;
+        font-style:Normal;
+        }
+
+        /* Fin importation police*/
+   
+        /* style du la page toute entière*/
+body{
+    font-family: 'Roboto';
+   /* background-image: url('photos/monbac.png');*/
+   background-color: rgb(255, 255, 255);
+   margin: 0;
+   
+   
+  
+ /* fin stylde de la page entière*/ 
+
+}
+/*entête*/
+
+header{
+   
+   /* background-image: url('photos/backgrouncolor.jpeg');*/
+    position: fixed;
+    top: 0%;
+    bottom: 0;
+    width: 100%;
+    color:rgb(255, 255, 255);
+    
+   
+   
+      
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+
+
+#liennav{
+    display: flex;
+    column-gap: 20px;
+    
+   
+    
+    
+   
+}
+
+#liennav a{
+    color:rgb(0, 0, 0)
+}
+
+
+li{
+    list-style: none;
+    text-transform: uppercase;
+    
+}
+
+nav li:hover a{
+    border-bottom: 5px solid rgb(228, 228, 23);
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+#logo a img{
+  
+    height: 50px;
+}
+
+#logo{
+    margin: 10px;
+}
+
+/* fin style de l'en tête avec bare des navigations*/
+
+button a, li a{
+    color: rgb(255, 255, 255);
+}
+
+
+/*main corps du body */
+
+main{
+    background-color: #041838;
+    min-height: 100%;
+    height: auto;
+}
+
+#attrait{
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    font-family: 'pacifico';
+}
+
+/* partie du titre principale*/
+#infolab img{
+  
+ 
+
+
+}
+
+img{
+    width: 100%;
+
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+  
+   margin-top: 150px;
+   
+   
+
+}
+
+/* le titre principale h1*/
+h1{
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+    
+    text-shadow: 5px 5px rgb(8, 1, 1);
+    font-size: 50px;
+    font-family: 'pacifico';
+    
+}
+
+h1 p{
+    font-size: 20px;
+    font-style: none;
+    font-weight: 0;
+    text-shadow: none;
+    text-align: center;
+    opacity: 0.5;
+    font-family: serif;
+    margin-top: -5px;
+}
+.hero button{
+    height: 40px;
+    background-color: rgb(228, 228, 23);
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+#buto{
+    margin-top: 70px;
+}
+
+#hero{
+    display: flex;
+   column-gap: 30px;
+   justify-content: center;
+   align-items: center;
+}
+
+#prog img{
+    
+    
+    width: 200px;
+    object-fit: cover;
+    
+    
+    
+
+   
+}
+
+#prog{
+    
+    align-self: end;
+    margin-top: 100px;
+    
+}
+
+.hero button a{
+    font-size: 16px;
+    font-weight: 600;
+    font-style: bold;
+}
+
+
+
+
+
+
+  
+  
+    
+    
+    
+
+
+/* fin de la partie du titre principale*/
+
+/*Première section qui comprend le texte a propos ainsi que l'icone du travail en groupe*/
+
+#sect1{
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-between;
+   line-height: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 100px;
+}
+.h2{
+    margin-left: -50px;
+    margin-bottom: 80px;
+    font-family: 'Roboto';
+}
+
+ #tgroupe{
+    align-self: center;
+ }
+
+ #tgroupe img{
+    width: 500px;
+ }
+
+ .apropo{
+   
+ }
+
+
+
+.apropo button{
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;   
+    background-color: #041838;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+.apropo button a{
+    color: rgb(228, 228, 23);
+    font-size: 16px;
+    font-weight: 600;
+    font-style: bold;
+    
+}
+
+.apropo {
+    
+    width: 100%;
+    
+}
+
+.apropo .h2{
+    color:rgb(255, 255, 255);
+}
+
+.apropo p{
+    color: rgb(255, 255, 255);
+    
+}
+
+.but{
+    margin-top: 50px;
+}
+
+/* Deuxième section qui comprend les petites images en flex dont la présentation1 et 2 avec la classe mission*/
+
+
+
+.sect2 {
+    background-color: rgb(255, 255, 255);
+    padding: 100px;
+    
+}
+
+.mission{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.mission li img{
+    width: 100%;
+    transition: width .5s;
+}
+
+
+.mission li figcaption p{
+    text-transform: lowercase;
+    text-align: center;
+  }
+
+  .mission li figcaption h3{
+    text-align: center;
+  }
+
+  .mission figure{
+    margin-bottom: 50px;
+  }
+
+  .capt button{
+    background-color: #041838;
+    
+    
+  }
+
+  .capt button a{
+    color:rgb(228, 228, 23);
+  }
+
+  .capt{
+    margin-left: 150px;
+  }
+
+  /* fin de la deuxième présentation*/
+
+  /*début de la partie footer */
+
+  #foot{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(105, 103, 103);
+    
+    padding: 20px;
+  }
+
+  footer button{
+    
+    background-color: #041838;
+    color:rgb(228, 228, 23);
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;   
+    border: 1px solid rgb(255, 255, 255);
+  }
+
+  footer li{
+    text-transform: lowercase;
+
+  }
+
+  footer span{
+    color: rgb(0,0,0);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+  }
+
+  li figure img{
+    transition: transform .5s;
+  }
+
+    li figure img:hover{
+    transform: scaleX(1.1) rotate(1Odeg);
+  }
+
+
+  footer{
+    font-family: 'Roboto';
+    height: 50px;
+  }
+
+ 
